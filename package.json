@@ -1,0 +1,28 @@
+{
+  "name": "pj",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@syncfusion/ej2-react-heatmap": "^29.2.4",
+    "date-fns": "^4.1.0",
+    "next": "15.3.3",
+    "react": "^19.0.0",
+    "react-calendar-heatmap": "^1.10.0",
+    "react-dom": "^19.0.0",
+    "react-github-calendar": "^4.5.7",
+    "recharts": "^2.15.3"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.3",
+    "tailwindcss": "^4"
+  }
+}
