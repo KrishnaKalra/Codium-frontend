@@ -4,20 +4,20 @@ import Tooltip from '@mui/material/Tooltip';
 
 export default function Days() {
   return (
-    <div className="relative w-60 h-46 bg-white rounded-lg shadow p-3">
-      {/* Info Icon with smooth tooltip (no extra border or layout shift) */}
-      <div className="absolute top-2 right-2 text-gray-400 cursor-pointer">
-        <Tooltip title="total no. of days when you solved atleast one question on any platform" arrow placement="top">
+    <div className="relative w-full h-full max-w-sm bg-white rounded-xl shadow p-4 sm:p-5 flex flex-col justify-between">
+      {/* Tooltip Info Icon */}
+      <div className="absolute top-3 right-3 text-gray-400 cursor-pointer">
+        <Tooltip title="Total questions you solved on all platforms" arrow placement="top">
           <span>
             <InfoIcon fontSize="small" />
           </span>
         </Tooltip>
       </div>
 
-      {/* Main Text Content */}
-      <div className="ml-10 flex flex-col justify-center h-full">
-        <div className="text-xl font-bold text-gray-500">Total Days Active</div>
-        <div className="ml-4 text-6xl font-extrabold text-black">500</div>
+      {/* Main Content Centered */}
+      <div className="flex flex-col justify-center items-center h-full text-center">
+        <div className="text-lg sm:text-xl font-semibold text-gray-600">Total Active Days</div>
+        <div className="text-5xl sm:text-6xl font-extrabold text-black mt-2">500</div>
       </div>
     </div>
   );
